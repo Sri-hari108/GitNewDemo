@@ -7,6 +7,11 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 public class Test1 {
+	
+	@Test
+	public void Hi() {
+	System.out.println("Hare Krishna Hare Krishna Krishna Krishna Hare Hare Hare Rama Hare Rama Rama Rama Hare Hare");
+	}
 
 	@Test
 	public void Demo() {
