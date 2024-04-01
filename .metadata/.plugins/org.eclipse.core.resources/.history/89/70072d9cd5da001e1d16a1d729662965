@@ -1,0 +1,16 @@
+package Test;
+
+public class Ps {
+	
+	public void parent() {
+		System.out.println("Hare Krishna");
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+
+	}
+
+}

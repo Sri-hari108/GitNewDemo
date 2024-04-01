@@ -1,0 +1,18 @@
+package Java;
+
+import java.util.LinkedHashSet;
+
+public class HashSet {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+        
+		LinkedHashSet<String> hs =new LinkedHashSet<String>();
+		hs.add("Krisha");
+		hs.add("Radha");
+		hs.add("Maya");
+		hs.add("Maya");
+		System.out.println(hs);
+	}
+
+}

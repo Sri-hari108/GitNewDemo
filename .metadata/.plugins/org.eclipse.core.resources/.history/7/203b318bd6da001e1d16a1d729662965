@@ -1,0 +1,24 @@
+package Test;
+
+public class Ps {
+	
+	public void parent() {
+		System.out.println("Hare Krishna");
+	}
+	
+	public void BeforeMethod() {
+		System.out.println("I am Before");
+	}
+	
+	public void AfterMethod() {
+		System.out.println("I am after");
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+
+	}
+
+}

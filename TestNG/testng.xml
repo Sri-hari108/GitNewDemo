@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Loan Department" parallel="tests" thread-count="5">
+  <test  name="Personal loan">
+  <parameter name="URL" value="qaclickAcademic.com"/>
+  <parameter name="UserName" value="12321"/>
+    <classes>
+      <class name="Test.Test1"/>
+      <class name="Test.Test2">
+      <methods>
+      <exclude name="Demo.*"></exclude>
+      </methods>
+      </class>
+      <class name="Test.Test4">
+      <methods>
+      <include name="APILoginHomeLoan"></include>
+      <include name="MobileLoginHomeLoan"></include>
+      </methods>
+      </class>
+    </classes>
+  </test>
+  
+  <test name="Carloan">
+    <classes>
+      <class name="Test.Test3">
+      <methods> 
+      <exclude name="APILoginCarLoan"></exclude>
+      </methods>     
+      </class>
+    </classes>
+  </test>
+</suite> <!-- Suite -->

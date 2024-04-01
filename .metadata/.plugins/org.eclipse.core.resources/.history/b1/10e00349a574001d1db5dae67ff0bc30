@@ -1,0 +1,17 @@
+package Java;
+
+public class ExceptionHandling {
+	
+	int a=2;
+	int b=4;
+	int c=0;
+	int k=b/c;
+	
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ExceptionHandling ex= new ExceptionHandling();
+		System.out.println(ex.k);
+	}
+
+}

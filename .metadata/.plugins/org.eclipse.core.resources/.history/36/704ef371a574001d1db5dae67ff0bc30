@@ -1,0 +1,31 @@
+package Java;
+
+public class ExceptionHandling {
+	
+	int a=2;
+	
+	
+	
+	// try-catch mechanism- this is used because  
+	
+	
+	
+	
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//ExceptionHandling ex= new ExceptionHandling();
+		int b=4;
+		int c=0;
+		try
+		{
+			int k=b/c;
+			System.out.println(k);
+		}
+		catch(Exception e){
+			System.out.println("OMK");
+		}
+	
+	}
+
+}

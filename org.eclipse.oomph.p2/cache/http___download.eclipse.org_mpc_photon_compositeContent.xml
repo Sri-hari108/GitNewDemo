@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?compositeMetadataRepository version='1.0.0'?>
+<repository name='EPP Marketplace Client for Eclipse Photon' type='org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository' version='1.0.0'>
+  <properties size='2'>
+    <property name='p2.compressed' value='true'/>
+    <property name='p2.timestamp' value='1584550442000'/>
+  </properties>
+  <children size='8'>
+    <child location='../releases/1.7.7'/>
+    <child location='../releases/1.7.6'/>
+    <child location='../releases/1.7.5'/>
+    <child location='../releases/1.7.4'/>
+    <child location='../releases/1.7.3'/>
+    <child location='../releases/1.7.2'/>
+    <child location='../releases/1.7.1'/>
+    <child location='../releases/1.7.0'/>
+  </children>
+</repository>

@@ -1,0 +1,34 @@
+package Java;
+
+public class StaticVar {
+	String name;
+	String address;
+	String city;
+	
+	StaticVar(String name,String address,String city){
+		this.name=name;
+		System.out.println(this.name);
+		this.address=address;
+		System.out.println(this.address);
+		this.city=city;
+		System.out.println(this.city);
+	}
+	
+	public void getAddress() {
+		System.out.println(address);
+	}
+		
+		
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		StaticVar sv= new StaticVar("Ram","Ayodhya","UP");
+		StaticVar sv1= new StaticVar("Krishna","Vrindavan","UP");
+		sv.getAddress();
+		sv1.getAddress();
+		
+
+	}
+
+}

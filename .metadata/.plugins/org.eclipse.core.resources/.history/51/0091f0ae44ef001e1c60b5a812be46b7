@@ -1,0 +1,19 @@
+package RahulShethyAcademy.StepDefination;
+
+import java.io.IOException;
+
+import PageObjectModule.LoginPage;
+import RahulShethyAcademy.TestComponents.BaseTest;
+import io.cucumber.java.en.Given;
+
+public class StepDefinationIml extends BaseTest{
+	
+	public LoginPage lg;
+	
+	@Given("I landed on E-commerce Application")
+	public void I_landed_on_Ecommerce_Application() throws IOException{
+		lg=lunchApplication();
+	}
+	
+
+}

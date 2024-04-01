@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Loan Department]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Personal loan(failed)">
+    <parameter name="UserName" value="12321"/>
+    <parameter name="URL" value="qaclickAcademic.com"/>
+    <classes>
+      <class name="Test.Test4">
+        <methods>
+          <include name="firstExecute"/>
+          <include name="APILoginHomeLoan"/>
+        </methods>
+      </class> <!-- Test.Test4 -->
+    </classes>
+  </test> <!-- Personal loan(failed) -->
+</suite> <!-- Failed suite [Loan Department] -->
