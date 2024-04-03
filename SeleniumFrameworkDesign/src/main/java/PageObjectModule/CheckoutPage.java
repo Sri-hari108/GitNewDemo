@@ -43,6 +43,7 @@ public class CheckoutPage extends AbstractComponents {
 	public void getAddress() {
 		// waitForElementToAppear(itemsBy);
 		selectCountry.sendKeys("Ind");
+		System.out.println("HARI BOL");
 
 		try {
 
